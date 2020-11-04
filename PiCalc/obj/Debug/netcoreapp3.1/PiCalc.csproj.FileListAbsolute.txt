@@ -1,0 +1,13 @@
+X:\Files\Programming\C#\PiCalc\PiCalc\bin\Debug\netcoreapp3.1\PiCalc.exe
+X:\Files\Programming\C#\PiCalc\PiCalc\bin\Debug\netcoreapp3.1\PiCalc.deps.json
+X:\Files\Programming\C#\PiCalc\PiCalc\bin\Debug\netcoreapp3.1\PiCalc.runtimeconfig.json
+X:\Files\Programming\C#\PiCalc\PiCalc\bin\Debug\netcoreapp3.1\PiCalc.runtimeconfig.dev.json
+X:\Files\Programming\C#\PiCalc\PiCalc\bin\Debug\netcoreapp3.1\PiCalc.dll
+X:\Files\Programming\C#\PiCalc\PiCalc\bin\Debug\netcoreapp3.1\PiCalc.pdb
+X:\Files\Programming\C#\PiCalc\PiCalc\obj\Debug\netcoreapp3.1\PiCalc.csprojAssemblyReference.cache
+X:\Files\Programming\C#\PiCalc\PiCalc\obj\Debug\netcoreapp3.1\PiCalc.AssemblyInfoInputs.cache
+X:\Files\Programming\C#\PiCalc\PiCalc\obj\Debug\netcoreapp3.1\PiCalc.AssemblyInfo.cs
+X:\Files\Programming\C#\PiCalc\PiCalc\obj\Debug\netcoreapp3.1\PiCalc.csproj.CoreCompileInputs.cache
+X:\Files\Programming\C#\PiCalc\PiCalc\obj\Debug\netcoreapp3.1\PiCalc.dll
+X:\Files\Programming\C#\PiCalc\PiCalc\obj\Debug\netcoreapp3.1\PiCalc.pdb
+X:\Files\Programming\C#\PiCalc\PiCalc\obj\Debug\netcoreapp3.1\PiCalc.genruntimeconfig.cache
