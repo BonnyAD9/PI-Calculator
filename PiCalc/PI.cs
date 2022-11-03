@@ -34,28 +34,27 @@ class PI
             calcArray[i - 1] += (calcArray[i] / B(i)) * A(i);
             calcArray[i] %= B(i);
         }
-        string num = calcArray[0].ToString();
+        var num = calcArray[0];
 
-        calcArray[0] = int.Parse(num.Last().ToString());
-        num = num.Remove(num.Length - 1);
-        if (num == "")
+        calcArray[0] = num % 10;
+        num = num / 10;
+        if (num == 0)
         {
             piDigits[j] = 0;
         }
         else
         {
-            piDigits[j] = byte.Parse(num.Last().ToString());
-            if (num.Length == 2)
+            piDigits[j] = (byte)(num % 10);
+            if (num < 100 && num > 9)
             {
                 int k = 1;
-                piDigits[j - k] += byte.Parse(num.Remove(num.Length - 1));
+                piDigits[j - k] += (byte)(num / 10);
                 while (piDigits[j - k] > 9)
                 {
-                    string n = piDigits[j - k].ToString();
-                    piDigits[j - k] = byte.Parse(n.Last().ToString());
+                    var n = piDigits[j - k];
+                    piDigits[j - k] = (byte)(n % 10);
                     k++;
-                    byte b = 0;
-                    byte.TryParse(n.Remove(n.Length - 1), out b);
+                    byte b = (byte)(n / 10);
                     piDigits[j - k] += b;
                 }
             }
